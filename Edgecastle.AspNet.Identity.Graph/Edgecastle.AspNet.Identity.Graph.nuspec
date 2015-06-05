@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://www.edgecastle.com/projects/aspnetidentitygraph/license</licenseUrl>
+    <projectUrl>http://www.edgecastle.com/projects/aspnetidentitygraph/license</projectUrl>
+    <iconUrl>http://www.edgecastle.com/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Graph-backed ASP.NET Identity Provider</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>aspnet identity graph neo4j web dev</tags>
+  </metadata>
+</package>
