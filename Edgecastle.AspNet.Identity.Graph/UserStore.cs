@@ -30,7 +30,9 @@ namespace Edgecastle.AspNet.Identity.Graph
 		/// </summary>
 		public UserStore()
 		{
-			this.DB = new GraphDBProvider().GetClient();
+            // TODO: Dependency injection of the GraphClient
+			this.DB = new GraphClient(new Uri("http://enter-your-neo4j-uri-here/"));
+            this.DB.Connect();
 		}
 
 		/// <summary>
