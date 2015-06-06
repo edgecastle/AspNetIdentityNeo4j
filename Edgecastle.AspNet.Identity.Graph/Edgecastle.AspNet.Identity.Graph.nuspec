@@ -10,9 +10,13 @@
     <projectUrl>http://www.edgecastle.com/projects/aspnetidentitygraph/license</projectUrl>
     <iconUrl>http://www.edgecastle.com/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Graph-backed ASP.NET Identity Provider</description>
+    <description>$description$</description>
     <releaseNotes>Initial release.</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>aspnet identity graph neo4j web dev</tags>
+    <dependencies>
+      <dependency id="Neo4jClient" version="1.0.0.662" />
+      <dependency id="Microsoft.AspNet.Identity.Owin" version="2.2.1" />
+    </dependencies>
   </metadata>
 </package>
