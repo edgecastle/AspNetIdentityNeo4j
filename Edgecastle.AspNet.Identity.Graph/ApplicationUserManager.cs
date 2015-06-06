@@ -68,7 +68,7 @@ namespace Edgecastle.AspNet.Identity.Graph
 			if (dataProtectionProvider != null)
 			{
 				manager.UserTokenProvider =
-					new DataProtectorTokenProvider<ApplicationUser>(dataProtectionProvider.Create("Edgecastle ASP.NET Graph Identity"));
+					new DataProtectorTokenProvider<ApplicationUser>(dataProtectionProvider.Create("AspNetIdentityGraph"));
 			}
 
 			return manager;
