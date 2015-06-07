@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Edgecastle.AspNet.Identity.Graph
+namespace Edgecastle.AspNet.Identity.Neo4j
 {
 	/// <summary>
 	/// Represents a user in the system.

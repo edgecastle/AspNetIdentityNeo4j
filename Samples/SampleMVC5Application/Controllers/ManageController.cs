@@ -7,7 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using SampleMVC5Application.Models;
-using Edgecastle.AspNet.Identity.Graph;
+using Edgecastle.AspNet.Identity.Neo4j;
 
 namespace SampleMVC5Application.Controllers
 {

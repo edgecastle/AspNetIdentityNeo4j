@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Edgecastle.AspNet.Identity.Graph
+namespace Edgecastle.AspNet.Identity.Neo4j
 {
 	/// <summary>
 	/// Error thrown when user already exists

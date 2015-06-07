@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Edgecastle.AspNet.Identity.Graph
+namespace Edgecastle.AspNet.Identity.Neo4j
 {
 	/// <summary>
 	/// Manager for users backed by a graph database store
@@ -24,9 +24,7 @@ namespace Edgecastle.AspNet.Identity.Graph
 		public ApplicationUserManager(IUserStore<ApplicationUser> store)
 			: base(store)
 		{
-            // TODO: Dependency injection of the GraphClient
-            this.DB = new GraphClient(new Uri("http://enter-your-neo4j-uri-here/"));
-            this.DB.Connect();
+			this.DB = Neo4jProvider.GetClient();
         }
 
 		/// <summary>

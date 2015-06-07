@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Edgecastle.AspNet.Identity.Graph
+namespace Edgecastle.AspNet.Identity.Neo4j
 {
 	/// <summary>
 	/// Allows configuration of the labels used for different objects in the graph DB
@@ -30,6 +30,17 @@ namespace Edgecastle.AspNet.Identity.Graph
 		/// Initializes a new instance of the <see cref="Configuration"/> class.
 		/// </summary>
 		public Configuration() : this(null) { }
+
+		/// <summary>
+		/// The connection string to use to connect to the graph databases
+		/// </summary>
+		public string ConnectionString
+		{
+			get
+			{
+				return Settings["Neo4jConnectionString"] ?? "http://neo4j:neo4j@localhost:7474/db/data";				
+			}
+		}
 
 		/// <summary>
 		/// The label applied to User objects (nodes) in the graph database

@@ -6,7 +6,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Edgecastle.AspNet.Identity.Graph
+namespace Edgecastle.AspNet.Identity.Neo4j
 {
 	/// <summary>
 	/// An ASP.NET identity (user)

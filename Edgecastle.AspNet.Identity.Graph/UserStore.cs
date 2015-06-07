@@ -8,7 +8,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Edgecastle.AspNet.Identity.Graph
+namespace Edgecastle.AspNet.Identity.Neo4j
 {
 	/// <summary>
 	/// A user service using a graph database as a backing store
@@ -30,9 +30,7 @@ namespace Edgecastle.AspNet.Identity.Graph
 		/// </summary>
 		public UserStore()
 		{
-            // TODO: Dependency injection of the GraphClient
-			this.DB = new GraphClient(new Uri("http://enter-your-neo4j-uri-here/"));
-            this.DB.Connect();
+			this.DB = Neo4jProvider.GetClient();
 		}
 
 		/// <summary>

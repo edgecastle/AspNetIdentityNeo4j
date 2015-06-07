@@ -4,7 +4,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using SampleMVC5Application.Models;
-using Edgecastle.AspNet.Identity.Graph;
+using Edgecastle.AspNet.Identity.Neo4j;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 
