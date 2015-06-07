@@ -244,7 +244,7 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Edgecastle.AspNet.Identity.Graph\Edgecastle.AspNet.Identity.Neo4j.csproj">
+    <ProjectReference Include="..\..\Edgecastle.AspNet.Identity.Neo4j\Edgecastle.AspNet.Identity.Neo4j.csproj">
       <Project>{fcc9b1f3-e63b-4d72-a430-9c2023d2aa44}</Project>
       <Name>Edgecastle.AspNet.Identity.Neo4j</Name>
     </ProjectReference>
